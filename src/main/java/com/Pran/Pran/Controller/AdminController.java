@@ -14,7 +14,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/admin")
-@CrossOrigin(origins = "https://pranayuv.com/")
+@CrossOrigin(origins = "https://pranayuv.com")
 public class AdminController {
 
     private final ServiceRegister register;
