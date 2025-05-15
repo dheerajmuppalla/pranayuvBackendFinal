@@ -14,7 +14,7 @@ public class WebConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**") // Apply to all routes
-                        .allowedOrigins("https://pranayuv.com/") // Allow your frontend origin
+                        .allowedOrigins("https://pranayuv.com") // Allow your frontend origin
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS") // Allowed HTTP methods
                         .allowedHeaders("*")
                         .allowCredentials(true); // If you're using cookies or sessions
