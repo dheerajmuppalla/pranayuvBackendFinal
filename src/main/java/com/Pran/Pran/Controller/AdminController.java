@@ -30,7 +30,7 @@ public class AdminController {
 
 
 
-
+    @CrossOrigin(origins = "https://www.pranayuv.com", allowCredentials = "true")
     @GetMapping("/getmessages")
     public List<Contact> contacts(){
         return messageRepo.findAll();
