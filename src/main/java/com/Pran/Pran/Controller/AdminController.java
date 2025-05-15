@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+@CrossOrigin(origins = "https://www.pranayuv.com", allowCredentials = "true")
 @RequestMapping("/admin")
-@CrossOrigin(origins = "https://pranayuv.com")
 public class AdminController {
 
     private final ServiceRegister register;
